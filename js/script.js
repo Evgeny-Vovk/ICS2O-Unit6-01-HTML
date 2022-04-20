@@ -4,6 +4,7 @@
 
 'use strict'
 /*** This function calculates celsius out of fahrenheit.***/
+
 function calculate() {
   
   // input
