@@ -2,17 +2,17 @@
 // Created on: mar 2022
 // This file contains the JS functions for index.html
 
-'use strict'
+"use strict";
 /*** This function calculates celsius out of fahrenheit.***/
 
 function calculate() {
-  
   // input
-  const fahrenheit = parseInt(document.getElementById('fahrenheit').value)
-  
+  const fahrenheit = parseInt(document.getElementById("fahrenheit").value);
+
   // process
-  const celsius = (fahrenheit - 32) * 5 / 9
+  const celsius = ((fahrenheit - 32) * 5) / 9;
 
   // output
-  document.getElementById('celsius').innerHTML = '<p>Answer : ' + celsius.toFixed(2) + ' °C.</p> '
+  document.getElementById("celsius").innerHTML =
+    "<p>Answer : " + celsius.toFixed(2) + " °C.</p> ";
 }
