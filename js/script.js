@@ -2,7 +2,6 @@
 // Created on: mar 2022
 // This file contains the JS functions for index.html
 
-"use strict"
 /*** This function calculates celsius out of fahrenheit.***/
 
 function calculate() {

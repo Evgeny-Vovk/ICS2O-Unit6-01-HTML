@@ -1,7 +1,7 @@
 {
-  "name": "Mr Evgeny's App",
-  "short_name": "Mr Evgeny's App",
-  "description": "Github Page for Mr Evgeny's App",
+  "name": "Evgeny's App",
+  "short_name": "Evgeny's App",
+  "description": "Github Page for Evgeny's App",
   "scope": "/ICS2O-Unit6-01-HTML/",
   "start_url": "/ICS2O-Unit6-01-HTML/",
   "background_color": "#ffffff",
