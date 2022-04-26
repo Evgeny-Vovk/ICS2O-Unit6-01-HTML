@@ -8,9 +8,9 @@ if (navigator.serviceWorker) {
   })
 }
 
-/** 
-*This function calculates celsius out of fahrenheit.
-*/
+/**
+ *This function calculates celsius out of fahrenheit.
+ */
 
 function calculate() {
   // input
