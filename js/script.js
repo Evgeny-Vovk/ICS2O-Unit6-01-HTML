@@ -2,10 +2,6 @@
 // Created on: mar 2022
 // This file contains the JS functions for index.html
 
-/**
- *This function helps MWA work.
- */
-
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS2O-Unit6-01-HTML/sw.js", {
     scope: "/ICS2O-Unit6-01-HTML/",
@@ -15,7 +11,6 @@ if (navigator.serviceWorker) {
 /**
  *This function calculates celsius out of fahrenheit.
  */
-
 function calculate() {
   // input
   const fahrenheit = parseInt(document.getElementById("fahrenheit").value)
