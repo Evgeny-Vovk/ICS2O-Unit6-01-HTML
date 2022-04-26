@@ -2,6 +2,10 @@
 // Created on: mar 2022
 // This file contains the JS functions for index.html
 
+/**
+ *This function helps MWA work.
+ */
+
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS2O-Unit6-01-HTML/sw.js", {
     scope: "/ICS2O-Unit6-01-HTML/",
