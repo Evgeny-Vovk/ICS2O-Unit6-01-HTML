@@ -2,13 +2,13 @@
 // Created on: mar 2022
 // This file contains the JS functions for index.html
 
-/*** This function calculates celsius out of fahrenheit.***/
-
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS2O-Unit6-01-HTML/sw.js", {
     scope: "/ICS2O-Unit6-01-HTML/",
   })
 }
+
+/*** This function calculates celsius out of fahrenheit.***/
 
 function calculate() {
   // input
